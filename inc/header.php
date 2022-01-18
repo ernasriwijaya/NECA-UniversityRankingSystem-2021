@@ -45,9 +45,8 @@ if (isset($_GET['action']) && $_GET['action'] == 'logout') {
  ?>
 
 
-    <div class="container">
-
-      <nav class="sidenav">
+    <div class="sidebar">
+      <nav class="sidebar">
         <a class="navbar-brand" href="dashboard.php"><i class="fas fa-home mr-2"></i>Dashboard</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
